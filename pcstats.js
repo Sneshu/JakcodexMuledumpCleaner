@@ -387,7 +387,7 @@ function printstats(c, d, dogoals, dostats) {
 		else if (i == 14) a = 9;
 		else if (i == 15) a = 10;
 		else if (i == 16) a = 11;
-		else if (i == 17) a = -1, br('stinfo', 'Dungeons Completed');
+		else if (i == 17) a = -1, br('stinfo', 'Dungeons');
 		else if (i >= 18 && i <= 23) a = i - 5;
 		else if (i >= 24) a = i - 3;
 		else a = i;
